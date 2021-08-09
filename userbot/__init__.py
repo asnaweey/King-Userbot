@@ -342,7 +342,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Telah Aktif```")
+    await bot.send_message(BOTLOG_CHATID, "```⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏 Bro Mus⚡ Telah Aktif```")
     return
 
 with bot:
@@ -474,7 +474,7 @@ with king:
                                            buttons=[
                                                [
                                                    custom.Button.url(
-                                                       text="Tambahkan Bot Ini Ke Grup",
+                                                       text="Masuk Bot Ini Ke Group",
                                                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                                                [custom.Button.url(
                                                    text="Support Chat",
